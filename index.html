@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        /*
+            unary operators (++, --, delete, +, -)
+        */
+
+        let n = 10;
+        n++;
+        n--;
+
+        let obj = { a: 12, b: "Alice", c: true }
+        delete obj.b;
+        console.log(obj); // {a:12, c:true}
+
+        let result = "15" + 20;
+        console.log(result); // "1520"
+
+        result = -"15" + 20;
+        console.log(result); // 5
+</script>
+</body>
+</html>
